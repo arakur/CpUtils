@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CpUtils\CpUtils.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.OrTools" Version="9.7.2996" />
+  </ItemGroup>
+</Project>
